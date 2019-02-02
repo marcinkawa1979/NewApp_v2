@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_10_dp">
+
+        <TextView
+            android:id="@+id/section_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_5_dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/textColorSection"
+            android:textSize="@dimen/main_text_size"
+            tools:text="i.e. football"
+            tools:background="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:padding="@dimen/padding_5_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/textColorNewsTitle"
+            android:textSize="@dimen/title_text_size"
+            tools:text="Long placeholder location that should wrap to more than 3 lines of text" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_5_dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/author_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorNewsDetails"
+            android:textSize="@dimen/main_text_size"
+            tools:text="Name of author"/>
+        <TextView
+            android:id="@+id/date_date_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorNewsDetails"
+            android:textSize="@dimen/main_text_size"
+            tools:text="Mar 6, 2010" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text color for the title of the news in the list item -->
+    <color name="textColorNewsTitle">#2B3D4D</color>
+
+    <!-- Text color for the section of the news in the list item -->
+    <color name="textColorNewsDetails">#B4BAC0</color>
+
+    <!-- Text color for the section of the news in the list item -->
+    <color name="textColorSection">#ffffff</color>
+
+    <!--Background color of section "News"-->
+    <color name="section_news">#c62828</color>
+
+    <!--Background color of section "Opinion"-->
+    <color name="section_opinion">#ff5722</color>
+
+    <!--Background color of section "Sport"-->
+    <color name="section_sport">#04B4B3</color>
+
+    <!--Background color of section "Lifestyle"-->
+    <color name="section_lifestyle">#ad1457</color>
+
+    <!--Background color of section "Culture"-->
+    <color name="section_culture">#a1887f</color>
+
+    <!--Background color of section "Other"-->
+    <color name="section_other">#000000</color>
+</resources>

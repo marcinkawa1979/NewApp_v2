@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NewApp</string>
+
+    <!-- Message showed when  -->
+    <string name="no_news_found">Sorry, there are no news now.\n Please try for a moment or more. </string>
+
+    <!-- Message showed when  -->
+    <string name="no_connection">Whoops.\nYou have no connection.\nCheck internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings For Subject Preference [CHAR LIMIT=30] -->
+    <string name="settings_keyword_label">Keyword</string>
+    <string name="settings_keyword_key" translatable="false">keyword</string>
+    <string name="settings_keyword_default" translatable="false"></string>
+
+    <!-- Strings For Category Preference [CHAR LIMIT=30] -->
+    <string name="settings_category_label">Category</string>
+    <string name="settings_category_key" translatable="false">category</string>
+    <string name="settings_category_default" translatable="false">@string/settings_category_news_value</string>
+
+    <!-- Label for category news option [CHAR LIMIT=20] -->
+    <string name="settings_category_news_label">News</string>
+    <string name="settings_category_news_value" translatable="false">news</string>
+
+    <!-- Label for category sport option [CHAR LIMIT=20] -->
+    <string name="settings_category_sport_label">Sport</string>
+    <string name="settings_category_sport_value" translatable="false">sport</string>
+
+    <!-- Label for category culture option [CHAR LIMIT=20] -->
+    <string name="settings_category_culture_label">Culture</string>
+    <string name="settings_category_culture_value" translatable="false">culture</string>
+
+    <!-- Label for category lifestyle option [CHAR LIMIT=20] -->
+    <string name="settings_category_lifestyle_label">Lifestyle</string>
+    <string name="settings_category_lifestyle_value" translatable="false">lifeandstyle</string>
+
+    <!-- Label for category technology option [CHAR LIMIT=20] -->
+    <string name="settings_category_technology_label">Technology</string>
+    <string name="settings_category_technology_value" translatable="false">technology</string>
+
+
+</resources>
